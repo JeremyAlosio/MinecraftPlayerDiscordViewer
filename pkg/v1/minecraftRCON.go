@@ -10,7 +10,7 @@ import (
 
 func GetMinecraftPlayerInfo() string {
 	// RCON connection details
-	hostport := "192.168.1.9:25575"
+	hostport := "localhost:25575"
 	password := os.Getenv("RCONPASSWORD")
 
 	// Create a new Minecraft RCON client
